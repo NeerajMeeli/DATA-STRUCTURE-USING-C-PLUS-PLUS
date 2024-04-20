@@ -5,8 +5,10 @@ using namespace std;
  int arr[20],n,x,i=0;
 int Binarysearch(int low,int high)
 {
+    while(low<=high)
+    {
     int mid=(low+high)/2;
-    if(arr[mid]<=x)
+    if(arr[mid]==x)
     {
         return mid;
     }
@@ -17,6 +19,7 @@ int Binarysearch(int low,int high)
     else{
         low=mid+1;
         
+    }
     }
     return -1;
 }
