@@ -87,7 +87,7 @@ using namespace std;
     // */
         
 
-//Impliment data structure Insertion Operation using array at the any given possition.
+//Impliment data structure Insertion Operation at the any given possition using array
 /*
 #include<iostream>
 using namespace std;
