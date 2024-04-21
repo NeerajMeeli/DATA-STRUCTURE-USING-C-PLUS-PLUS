@@ -19,7 +19,7 @@ int Binarysearch(int low,int high)
     else{
         low=mid+1;
         
-    }
+         }
     }
     return -1;
 }
@@ -45,7 +45,5 @@ int Binarysearch(int low,int high)
             cout<<"Yes result forund in array:"<<result;
         }
     
-
-        
         return 0;
     }

@@ -20,9 +20,16 @@ using namespace std;
             {
                 if(arr[i]<arr[j])
                 {
-                     temp=arr[i];
-                    arr[i]=arr[j];
-                    arr[j]=temp;
+                    //Method first
+
+                    //  temp=arr[i];
+                    // arr[i]=arr[j];
+                    // arr[j]=temp;
+                    
+                    //Method two
+                    arr[i]=arr[i]+arr[j];
+                    arr[j]=arr[i]-arr[j];
+                    arr[i]=arr[i]-arr[j];
                 }
             }
         }
