@@ -4,7 +4,7 @@
 using namespace std;
     int main()
     {
-        int arr[20],i=0,temp,n;
+        int arr[20],i=0,n;
         cout<<"Enter the size of an array:";
         cin>>n;
         
@@ -20,13 +20,13 @@ using namespace std;
             {
                 if(arr[i]<arr[j])
                 {
-                    //Method first
+                    //Method first using variable
 
-                    //  temp=arr[i];
+                    //  int temp=arr[i];
                     // arr[i]=arr[j];
                     // arr[j]=temp;
-                    
-                    //Method two
+
+                    //Method two without using variable
                     arr[i]=arr[i]+arr[j];
                     arr[j]=arr[i]-arr[j];
                     arr[i]=arr[i]-arr[j];
