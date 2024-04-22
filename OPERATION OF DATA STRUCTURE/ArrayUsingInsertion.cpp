@@ -45,7 +45,7 @@ using namespace std;
         int n;
         cout<<"Enter the size of an array:";
         cin>>n;
-        int arr[100],i=0,temp;
+        int arr[20],i=0,temp;
         cout<<"Enter the value of an array:";
         for(i=0;i<n;i++)
         {
