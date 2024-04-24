@@ -1,5 +1,6 @@
 //Impliment the data structure Bubble short using array
-/*
+
+
 #include<iostream>
 using namespace std;
     int arr[10],n,i=0;
@@ -50,10 +51,10 @@ using namespace std;
         return 0;
     }
 
-    */
+    
 
    //Impliment the data structure Bubble short using array
-
+/*
    #include<iostream>
    using namespace std;
         int n,i=0;
@@ -126,3 +127,5 @@ using namespace std;
 
             return 0;
         }
+
+        */
