@@ -10,7 +10,7 @@ using namespace std;
         cout<<"Stack is ful\n"<<endl;
 
        else{
-        cout<<"Enter an element :";
+        cout<<"Enter the element in stack :"<<endl;
         cin>>x;
         top++;
         stack[top]=x;
@@ -45,25 +45,19 @@ using namespace std;
             for(int i=top;i>=0;i--)
             cout<<stack[i]<<endl;
          }
-                
-                
-            
+      
     }
 
-        int peek()
+    int peek()
     {
-        
         return stack[top];
-        
-        
-        }
+    }
 
-    
-    
     int main()
     {
         int choise;
-        do{
+        do
+    {
         cout<<"\n______________________Menu________________________";
         cout<<"\n1.push  2.pop  3.display  4.peek"<<endl;
        // cout<<"___________________________________________________"<<endl;
@@ -81,7 +75,7 @@ using namespace std;
             cout<<"The top element of the stack is : "<<y<<endl;
             break;
         }
-        }
+    }
         while(choise!=5);
 
 
