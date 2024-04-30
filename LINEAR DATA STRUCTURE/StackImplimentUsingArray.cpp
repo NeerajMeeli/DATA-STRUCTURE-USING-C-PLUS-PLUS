@@ -3,11 +3,12 @@
 #include<iostream>
 using namespace std;
     int stack[5],n=5,top=-1;
+
     void push()
     {
         int x;
        if(top==n-1)
-        cout<<"Stack is ful\n"<<endl;
+        cout<<"\nStack is ful"<<endl;
 
        else{
         cout<<"Enter the element in stack :"<<endl;
@@ -57,11 +58,11 @@ using namespace std;
     {
         int choise;
         do
-    {
-        cout<<"\n______________________Menu________________________";
-        cout<<"\n1.push  2.pop  3.display  4.peek"<<endl;
-       // cout<<"___________________________________________________"<<endl;
-        cout<<"Enter your choise :";
+        {
+        cout<<"\n__________________Circular Queue Menu________________";
+        cout<<"\n1.push\n2.pop\n3.display\n4.peek";
+       cout<<"\n___________________________________________________"<<endl;
+        cout<<"\nEnter your choise :";
         cin>>choise;
         switch(choise)
         {
