@@ -11,7 +11,7 @@ using namespace std;
         cout<<"\nStack is ful"<<endl;
 
        else{
-        cout<<"Enter the element in stack :"<<endl;
+        cout<<"Enter the element in stack :";
         cin>>x;
         top++;
         stack[top]=x;
