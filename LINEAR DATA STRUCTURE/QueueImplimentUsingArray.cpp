@@ -12,7 +12,6 @@ using namespace std;
             cout<<"\nQueue is Overflow ";
         }
         else{
-            //Queue[rear];
             cout<<"Enter element in Queue :";
             cin>>n;
             rear++;
