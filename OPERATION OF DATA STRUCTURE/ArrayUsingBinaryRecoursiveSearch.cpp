@@ -14,7 +14,7 @@ int Binarysearch(int low,int high)
             {
                 return mid;
             }
-            else if(arr[mid>x])
+            else if(arr[mid]>x)
             {
                 return Binarysearch(low,mid-1);
             }
