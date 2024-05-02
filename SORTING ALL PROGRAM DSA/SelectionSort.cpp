@@ -14,7 +14,7 @@ using namespace std;
         }
     }
 
-    void InsertionSort()
+    void SelectionSort()
     {
         for(int i=0;i<n-1;i++)
         {
@@ -47,7 +47,7 @@ using namespace std;
     int main()
     {
         sizeOfarray();
-        InsertionSort();
+        SelectionSort();
         print();
         return 0;
     }
