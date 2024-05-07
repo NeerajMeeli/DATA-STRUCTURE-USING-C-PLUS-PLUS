@@ -7,18 +7,18 @@ using namespace std;
     {
         cout<<"Enter the size of an array:";
         cin>>n;
-        cout<<"Enter the value of an array:";
+        cout<<"Enter the value of Jumbled or Discending order :";
         for(int i=0;i<n;i++)
         {
             cin>>arr[i];
         }
     }
 
-    void SelectionSort()
+    void SelectionSort(int min)
     {
         for(int i=0;i<n-1;i++)
         {
-            int min=i;
+           // int min=i;
             for(int j=i+1;j<n;j++)
             {
                 if(arr[j]<arr[min])
@@ -47,7 +47,7 @@ using namespace std;
     int main()
     {
         sizeOfarray();
-        SelectionSort();
+        SelectionSort(0);
         print();
         return 0;
     }
